@@ -1,0 +1,179 @@
+
+body
+{
+    margin:0px;
+    padding: 0;
+    font-size:1.2rem; 
+    font-family:Comic Sans MS;
+    background-color:#f2e394;
+}
+
+#img1
+{
+    width: 100%;
+    height: 45rem;
+    margin-left: 0px;
+    margin-bottom: 5rem;
+}
+
+#heading
+{
+    text-align: center;
+    font-size: 5rem;
+    font-family: Calibri;
+}
+
+#para1
+{
+    margin-left: 15rem;
+    margin-right: 15rem;
+    text-align:justify;
+    margin-bottom: 5rem;
+
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 10rem;
+}
+
+.container1 , .container2 , .container3
+{
+    background: #ffffff;
+    flex: 1;
+}
+
+.image
+{
+    height: 20rem;
+    width: 25rem;
+}
+
+.para1 , .para2 , .para3
+{
+    text-align: justify;
+    width: 20rem;
+    padding: 2rem;
+    /* border: 2px solid red; */
+}
+
+
+/* 
+.foot 
+{
+    height: 2rem;
+    background: #35424a;
+    padding-bottom: 0px;
+} */
+
+
+
+
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

@@ -1,0 +1,192 @@
+body
+{
+    background-image: url("Background1.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+#container
+{
+    margin: 0px;
+}    
+
+#heading
+{
+    font-size: 8rem;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px red;
+    margin-top: 6rem;
+}
+
+#contents
+{
+    margin-top: 7rem;
+    font-size: 1.2rem;
+    font-family: Comic Sans MS;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 10rem;
+}
+
+#images
+{
+    
+}
+
+#images img
+{
+    height: 50rem;
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+#container li
+{
+    margin: 10px;
+}
+
+#button
+{
+    padding: 2rem;
+    display: inline-block;
+    background-color: #cccccc;
+    margin-left: 23rem;
+    margin-top: 6rem;
+    border-radius: 5px;
+    border: 2px solid #3399ff;
+    text-align: center;
+}
+
+#button:hover
+{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#button img
+{
+    height: 10rem;
+    width: 12rem;
+    box-shadow: 3px 3px 15px #3399ff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#container a
+{
+    text-decoration: none;
+    font-family: Ink Free ;
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;  
+}
+
+
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

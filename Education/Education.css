@@ -1,0 +1,293 @@
+ 
+ body
+ {
+     margin: 0px;
+     background-image: url("Background.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+ }
+
+ #heading
+ {
+    font-family: Calibri;
+    font-size: 3.2rem;
+     color: white;
+    margin-top: 8rem;
+ }
+
+ #container
+ {
+     margin-top: 8rem;
+     margin-bottom: 12rem;
+ }
+
+
+
+
+
+
+.blindsWrapper {
+    display: inline-block;
+    position:relative;
+    vertical-align: top;
+    padding: 0px;
+    
+    margin: 40px 25px 20px 25px;
+    
+    width: 250px; height: 210px;
+    
+    background: rgba(0,0,0,0.1);
+    
+    border-radius:10px;
+    box-shadow: 0 1px 1px rgba(255,255,255,1), inset 0 -1px 4px rgba(0,0,0,0.2);
+    
+    z-index: 1;
+    
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+}
+
+.partOne,
+.partTwo,
+.partThree {
+    
+    position: relative;
+    display: block;
+    
+    /*background-image: url("NIT.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border: 5px solid white;
+    z-index: 2;
+    
+    -webkit-transform:perspective(0) rotateX(0) scale(1);
+    -moz-transform:perspective(0) rotateX(0) scale(1);
+    transform:perspective(0) rotateX(0) scale(1);
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+}
+
+
+.partOne {
+    
+    height: 67px;
+    
+    border-radius: 10px 10px 0px 0px;
+    
+    border-bottom: 0px solid white ;
+    
+    background-position: 0 0;
+    
+    box-shadow: 0 1px 5px rgba(0,0,0,0), inset 0 -5px 15px rgba(255,255,255,0), 0px -1px 0 silver, -1px 0 0 silver, 1px 0 0 silver; 
+}
+
+.partTwo {
+    
+    height: 66px;
+    
+    border-radius: 0px 0px 0px 0px;
+    
+    border-top: 0px solid white ;
+    border-bottom: 0px solid white ;
+    
+    background-position: center -67px;
+    
+    z-index: 3;
+}
+
+.partThree {
+    
+    height: 67px;
+    
+    border-radius: 0px 0px 10px 10px;
+    
+    border-top: 0px solid white !important;
+    
+    background-position: center -134px;
+    
+}
+
+
+
+
+.blindsWrapper:hover .partOne {
+    
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1), inset 0 -5px 15px rgba(255,255,255,0.5), 0px -1px 0 #74ceeb, -1px 0 0 #74ceeb, 1px 0 0 #74ceeb;
+    
+    -webkit-transform:perspective(300px) rotateX(40deg) scale(1.07);
+    -moz-transform:perspective(300px) rotateX(40deg) scale(1.07);
+    transform:perspective(300px) rotateX(40deg) scale(1.07);
+    top: -8px;
+}
+.blindsWrapper:hover .partTwo {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.35), inset 0 0px 0px 66px rgba(0,0,0,0.3), -1px 0 0 #74ceeb, 1px 0 0 #74ceeb;
+    -webkit-transform:perspective(300px) rotateX(-40deg) scale(1.07);
+    -moz-transform:perspective(300px) rotateX(-40deg) scale(1.07);
+    transform:perspective(300px) rotateX(-40deg) scale(1.07);
+    top: -15px;
+}
+.blindsWrapper:hover .partThree {
+    box-shadow: 0 10px 5px rgba(0,0,150,.1), 0 16px 10px rgba(0,0,0,.15), 0 4px 0 0 #74ceeb, 0 0 0 1px #74ceeb;
+    -webkit-transform:perspective(300px) rotateX(40deg) scale(1.07);
+    -moz-transform:perspective(300px) rotateX(40deg) scale(1.07);
+    transform:perspective(300px) rotateX(40deg) scale(1.07);
+    top: -32px;
+}
+
+.blindsWrapper i {
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(0,0,0,0.3);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.65);
+    font-family: helvetica, arial, sans-serif !important;
+    font-style: normal !important;
+}
+
+.imgOne .partOne,
+.imgOne .partTwo,
+.imgOne .partThree {
+    background-image: url("NIT.jpg");
+    
+}
+.imgTwo .partOne,
+.imgTwo .partTwo,
+.imgTwo .partThree {
+    background-image: url("KU.jpg");
+    
+}
+.imgThree .partOne,
+.imgThree .partTwo,
+.imgThree .partThree {
+    background-image: url("KITM.png");
+    
+}
+.imgFour .partOne,
+.imgFour .partTwo,
+.imgFour .partThree {
+    background-image: url("NID.png");
+}
+
+
+
+    
+#footer
+{
+    height: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #bfbfbf;
+    width: 100%;
+}
+
+
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

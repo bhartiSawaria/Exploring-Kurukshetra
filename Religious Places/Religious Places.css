@@ -1,0 +1,258 @@
+
+body
+{
+    background-color:	 #1e4a96f7;
+    margin: 0px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+
+#heading h1
+{
+    font-family: Calibri;
+    font-size: 4rem;
+    padding: 2rem;
+    background-color : #ffe6ff;
+    border-radius: 15px;
+    text-align: center;
+    margin: 4rem 6rem 1rem 6rem;
+}
+
+
+.box:hover 
+{
+    transform : rotateY(180deg);
+
+}
+.box
+{
+    transform-style : preserve-3d;
+    transition : all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    height: 22rem;
+    width: 22rem;
+    /* display: inline-block; */
+    /* position: absolute; */
+
+}
+.i1
+{
+    position : absolute;
+    backface-visibility : hidden;
+    border : 2px solid black;
+    border-radius : 3px;
+    height: 22rem;
+    width: 22rem;
+
+}
+
+.i2
+{
+    position : absolute;
+    background-color : #ffe6ff;
+    font-size : 3rem;
+    border : 2px solid black;
+    border-radius : 1rem;
+    text-align : center;
+
+    backface-visibility : hidden;
+    transform : rotateY(180deg);
+    height: 22rem;
+    width: 22rem;
+    font-family: Calibri;
+
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.name
+{
+    height: 22rem;
+    width: 22rem;
+    color: black;
+    padding-top: 4rem;
+    font-style: oblique;
+    text-align: center;
+}
+
+img
+{
+    height: 22rem;
+    width: 22em;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+/* 
+
+
+.b1
+{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.b2
+{
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+.b3
+{
+    margin-top: 600px;
+    margin-left: 200px;
+}
+
+.b4
+{
+    margin-top: 600px;
+    margin-left: 700px;
+}
+
+.b5
+{
+    margin-top: 1100px;
+    margin-left: 200px;
+}
+
+.b6
+{
+    margin-top:1100px;
+    margin-left: 700px;
+} */
+
+#footer
+{
+    width: 100%;
+    height: 6rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    background-color: #ffe6ff;
+   
+
+}
+
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

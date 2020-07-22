@@ -1,0 +1,254 @@
+body
+{
+    background-image: url("Background.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+
+
+#heading
+{
+    background-color:#cccccc;
+    border: 10px double black;
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+}
+
+#heading h1
+{
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+    font-family: Lucida Fax;
+}
+
+
+#images
+{
+    display: flex;
+    margin-top: 15rem;
+    margin-bottom: 18rem;
+}
+
+.square
+{
+    transform: rotate(-45deg);
+    overflow: hidden;
+    height: 23rem;
+    width: 23rem;
+    border: 2px solid black;
+    margin: 0px;
+    box-shadow: 10px 10px 25px black;
+    transform: transition ease 2s;
+    transition : all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+.s1:hover
+{
+    transform: rotate(315deg);
+}
+
+.s2:hover
+{
+    transform: rotate(315deg);
+}
+
+.pic
+{
+    height: 43rem;
+    width: 43rem;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+    margin: -10rem;
+}
+
+
+.pic img
+{
+    height: 43rem;
+    width: 43rem;
+    
+    opacity: 0.7;
+}
+
+
+.s1
+{
+    margin-left: 8rem;
+}
+
+.s2
+{
+   margin-left: 2rem;
+}
+
+
+
+
+
+#textBoxes
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.textSquare
+{
+    transform: rotate(-45deg);
+    overflow: hidden;
+    height: 12rem;
+    width: 12rem;
+    border: 2px solid black;
+    margin: 0px;
+    box-shadow: 10px 10px 25px black;
+}
+
+.text
+{
+    height: 24rem;
+    width: 24rem;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+    margin: -6rem;
+    background-color: white;
+    text-align: center;
+}
+
+.text img
+{
+    height: 24rem;
+    width: 24rem;
+    
+}
+
+.t1
+{
+    margin-bottom: 3rem;
+    margin-top: -3rem;
+    margin-left: 2.4rem;
+}
+
+.t2
+{
+    margin-top: 3rem;
+    margin-left: 2.4rem;
+}
+
+#footer
+{
+    background-color: #cccccc;
+    width: 100%;
+    height: 7rem;
+    margin-bottom: 1rem;
+}
+
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

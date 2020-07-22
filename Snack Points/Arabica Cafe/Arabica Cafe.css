@@ -1,0 +1,245 @@
+body
+{
+     margin: 0;
+     padding: 0;
+     background-color: #ffffff;
+     /*overflow-y: hidden;*/
+     background-image: url("../Background.jpg");
+    /* background-image: url("Fun Bytes1.jpg");*/
+     /* background-repeat: repeat; */
+     background-size: cover;
+     /* background: #708090; */
+} 
+
+/* .head
+{
+    height: 0px;
+    width: 1226px;
+    margin-left: 150px;
+    background: #35424a;
+    border-bottom: 2px solid orangered; 
+} */
+
+.heading
+{
+    margin-top: 14rem;
+    margin-right: 0px;
+    position: absolute;
+    background-color: #35424a;
+    opacity: 0.9;
+    height: 12rem;
+    width: 65rem;
+    box-shadow: 20px 20px 20px black;
+    padding-bottom: 2rem;
+}
+
+h1
+{
+    color:white; 
+    font-size: 10rem;
+    /* padding: 2rem 30px 50px 40px; */
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    margin-top: 0;
+    z-index: 2;
+}
+
+span
+{
+    color: black;
+}
+
+.mainImg
+{
+    margin-left: 5rem;  
+    height: 44rem;
+    width: 73rem; 
+}
+
+h2
+{
+    font-size: 3rem;
+}
+
+
+
+.mainContainer
+{
+    /* width: 70%;*/
+     /* margin-top: 70rem; */
+     color: #ffffff;
+     font-size: 1.2rem;
+     font-family: Comic Sans MS;
+
+    
+     /* overflow: hidden; */
+    /* max-height: 900px;*/
+}
+
+.container1  
+{
+    background: rgba( 0, 0, 0, 0.8);
+    padding: 3rem;
+    margin-top: 50rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.container2
+{
+    background: rgba( 0, 0, 0, 0.8);
+    padding: 3rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.container3
+{
+    background: rgba( 0, 0, 0, 0.8);
+    padding: 3rem;
+    margin-top: 10rem;
+}
+
+p
+{
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+.threeImages
+{
+    display: flex;
+    /* margin-left:-30px; */
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.image
+{
+    height:28rem;
+    width: 23rem;
+    padding: 0.5rem;
+    background: #ffffff;
+    border: 2px solid black;
+}
+
+hr
+{
+     margin-top:-2.4rem;
+     margin-bottom: 3rem;
+}
+
+.foot
+{
+    height:8rem;
+    background: rgba( 0, 0, 0, 0.8);
+    /* border-bottom: 3px solid orangered; */
+    margin-bottom: 2rem;
+    margin-top:10rem;
+}
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

@@ -1,0 +1,275 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background: url("Amcare (2).jpeg") no-repeat;
+
+}
+
+
+
+.heading
+{
+    /*font-size: 100px;*/
+    font-family: Calibri;
+    color: #ffffff;
+    background: #0E4D92;
+    position: absolute;
+    z-index: 1.1;
+    /*left: 100px;*/
+    top: 20rem;
+    box-shadow: 10px 10px 10px #35424a;
+}
+
+.heading h1
+{
+    font-size: 5rem;
+    padding: 0px 4rem 0px 2rem;
+   
+}
+
+.facilities
+{
+    height: 37rem;
+    width: 26rem;
+    position: absolute;
+    z-index: 1.3;
+    background: #ffffff;
+    left: 50rem;
+    top: 13rem;
+    border:2px solid black;
+    /*opacity: 0.9;*/
+}
+
+.facilities h2
+{
+    font-size: 2rem;
+    font-family: Calibri;
+    color: black;
+    text-align: center;
+}
+
+.special
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.sp
+{
+    /* border-bottom: 1px solid black; */
+    height: 9rem;
+    display: flex;
+    
+}
+
+.icon
+{
+    height: 3.1rem;
+    width: 3.1rem;
+    margin-top: 2rem;
+    margin-right: 3rem; 
+    margin-left: 2rem;
+}
+
+.sp h3
+{
+    font-size: 1.2rem;
+}
+
+.content1
+{
+    width: 100%;
+    height:16rem;
+    background: #35424a;
+    margin-top: 51rem;
+    /*margin-bottom: 50px;*/
+    position: absolute;
+    z-index: 1.5;
+    display: flex;
+}
+
+.content1 p
+{
+    font-size: 1.4rem;
+    font-family: 'Charm', cursive;
+    color: #ffffff;
+    margin-left: 5rem;
+    margin-right: 4rem;
+    margin-top: 5.5rem;
+}
+
+.iconImage
+{
+    height:11.2rem;
+    width: 13.2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.content2
+{
+    width: 100%;
+    margin-top: 80rem;
+    /* height: 40rem; */
+    background: #ffffff;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    margin-bottom: 10rem;
+}
+
+.content2 img
+{
+   height: 50rem;
+   width: 40rem;
+   margin-top:8rem;
+   margin-left: 5rem;
+}
+
+.about
+{
+    background: #808080;
+    color: #ffffff;
+    height:51rem;
+    margin-top: 5rem;
+    position: absolute;
+    margin-left: 37rem;
+    margin-right: 4rem;
+    z-index: 2.3;
+    padding: 3rem;
+}
+
+.about h1
+{
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.about p
+{
+    text-align: justify;
+    font-size: 1.6rem;
+    padding: 0 0px;
+    font-family: Calibri;
+}
+
+.foot
+{
+    height: 6rem;
+    background: #35424a;
+    top: 160rem;
+    position: absolute;
+    z-index: 2.5;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

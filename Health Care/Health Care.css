@@ -1,0 +1,270 @@
+
+body
+{
+    padding: 0; 
+    margin: 0%;
+    background-color: #35424a;
+}
+
+.pageTitle
+{
+    font-family: Gabriola;
+    font-size: 9rem;
+    color: #ffffff;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.front img{
+    height: 30rem;
+    width: 22rem;
+}
+
+.box1
+{
+    position: absolute;
+    top: 40rem;
+    left: 11rem;
+    height: 30rem;
+    width: 22rem;
+    margin-bottom: 20rem;
+    transform-style: preserve-3d;
+    background: #000;
+    transition: 2s;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.box2
+{
+    position: absolute;
+    top: 40rem;
+    left: 46rem;
+    height: 30rem;
+    width: 22rem;
+    margin-bottom: 20rem;
+    transform-style: preserve-3d;
+    background: #000;
+    transition: 2s;
+    transform: perspective(30rem) rotateY(0deg);
+}
+
+.box1:hover
+{
+    transform: perspective(30rem) rotateY(180deg);
+}
+
+.box2:hover
+{
+    transform: perspective(30rem) rotateY(180deg);
+}
+
+.box1:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 100%;
+    background: #35424a;
+    transform: rotateY(-90deg) translateX(-2rem);
+    transform-origin: left;
+}
+
+.box2:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 100%;
+    background: #35424a;
+    transform: rotateY(-90deg) translateX(-2rem);
+    transform-origin: left;
+}
+
+.box1 .front
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*background: url('C:\Users\bharti\Desktop\Website\Health Care\Health Care Main 2.png');*/
+    transform: translateZ(2rem);
+}
+
+.box2 .front
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*background: url('C:\Users\bharti\Desktop\Website\Health Care\Health Care Main 2.png');*/
+    transform: translateZ(2rem);
+}
+
+
+.box1 .back
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateZ(-2rem) rotateY(180deg);
+}
+
+.box2 .back
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateZ(-2rem) rotateY(180deg);
+}
+
+.back h1
+{
+    font-size: 4rem;
+    color: #ffffff;
+    margin-top: 4.5rem;
+    text-align: center;
+}
+
+
+
+.linkForView div
+{
+    height: 3rem;
+    width: 4rem;
+    background: #ffffff;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

@@ -1,0 +1,312 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+    background: #808080;
+}
+
+.heading
+{
+    font-size: 9rem;
+    font-family: 'Dancing Script',Gabriola, cursive;
+    color: #ffffff;
+    text-align: center;
+}
+
+.background
+{
+    background-size: cover;
+    background-color: #ffffff;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    position: absolute;
+    z-index: -1;
+    height: 90rem;
+    /* width: 1200px; */
+}
+
+.backgroundImg
+{
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    /* border: 2px solid red; */
+}
+
+.card
+{
+    position: relative;
+    height: 25rem;
+    width: 25rem;
+    background: #ffffff;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50% ) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 0 20px 100px rgba(0,0,0,.5);
+    transition: 1s;
+}
+
+.bigContainer
+{
+    margin-top: 10rem;
+    margin-left: 12rem;
+}
+
+
+#card1
+{
+    margin-top: 20rem;
+    margin-left: 10rem;
+}
+
+#card2
+{
+    margin-top: -25rem;
+    margin-left: 45rem;
+}
+
+#card3
+{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+#card4
+{
+    margin-top: -25rem;
+    margin-left: 45rem;
+}
+
+#card5
+{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+#card6
+{
+    margin-top: -25rem;
+    margin-left: 45rem;
+}
+
+.card:hover
+{
+    transform: translate(-50%, -50% ) perspective(2000px) rotate(-10deg);
+    box-shadow: inset 10px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+}
+
+.card:before
+{
+    content: '';
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height:5px;
+    /*background: #475b02;*/
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+}
+
+.card:after
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    width: 5px;
+    height:100%;
+    /*background: #7EA307;*/
+    transform-origin: left;
+    transform: skewY(-45deg);
+}
+
+.card .imgBox 
+{
+    height:100%;
+    width:100%;
+    position: relative;
+    transform-origin: left;
+    transition: 1s;
+}
+
+.card .imgBox img
+{
+    height: 25rem;
+    width: 25rem;
+}
+
+.card:hover .imgBox
+{
+    transform: rotateY(-135deg);
+}
+
+.card .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 3rem;
+    z-index: -1;
+}
+
+.detailsHeading1
+{
+    color: black;
+    margin-left: 2rem;
+}
+
+.detailsHeading2
+{
+    color: black;
+    margin-left: 8rem;
+}
+
+.detailsHeading3
+{
+    color: black;
+    margin-left: 4rem;
+}
+
+.detailsHeading4
+{
+    color: black;
+    margin-left: 3rem;
+}
+
+.detailsHeading5
+{
+    color: black;
+    margin-left: 3rem;
+}
+
+.detailsHeading6
+{
+    color: black;
+    margin-left: 6rem;
+}
+
+.details p
+{
+    text-align: justify;
+    padding: -2rem 3rem 2rem 3rem;
+    margin-bottom: 30px;
+}
+
+.link1
+{
+    height: 3rem;
+    /* width: 100px; */
+    background-color: #e8491d;
+    color: #ffffff;
+    font-family: Calibri;
+    padding: 1rem;
+    margin-left: 6rem;
+    text-decoration: none;
+}
+
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

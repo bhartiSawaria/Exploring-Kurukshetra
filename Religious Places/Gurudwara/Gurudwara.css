@@ -1,0 +1,254 @@
+body
+{
+    margin: 0px;
+    background-color:	 #1e4a96f7;
+} 
+#bigContainer
+{
+    margin : 2rem;
+    font-family: Comic Sans MS;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+} 
+
+#bigContainer h1
+{
+    font-family: Calibri;
+    font-size: 3rem;
+    padding: 3rem;
+    background-color : #ffe6ff;
+    border-radius: 15px;
+    text-align: center;
+    margin: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+#container1, #container3, #container5, #container6
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container1 div
+{
+    margin: 1rem;
+    padding: 1rem;
+    background-color:#ffe6ff;
+    border-radius: 15px;
+}
+
+#container1 img
+{
+    border-radius: 15px;
+    width: 30rem;
+    height: 25rem;
+    border: 2px solid black;
+}
+
+#container2 div
+{
+    margin:1rem 2rem;
+    padding: 1rem;
+    background-color:#ffe6ff;
+    border-radius: 15px;
+}
+
+#container3 div
+{
+    margin: 1rem;
+    padding: 1rem;
+    background-color:#ffe6ff;
+    border-radius: 15px;
+}
+
+#container3 img
+{
+    border-radius: 15px;
+    width: 26rem;
+    height: 20rem;
+    border: 2px solid black;
+}
+
+#container4
+{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#q1
+{
+    margin: 0px ;
+    padding: 1.2rem 1rem;
+    background-color:#ffe6ff;
+    border-radius: 15px;
+}
+
+#q2
+{
+    margin-bottom: 1rem;
+    padding: 1.2rem 1rem;
+    background-color:#ffe6ff;
+    border-radius: 15px;
+    height: 20rem;
+}
+
+#c2c3
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#c2c3c4
+{
+    display: flex;
+}
+
+#container5 div
+{
+    margin: 1rem;
+    padding: 1rem;
+    background-color:#ffe6ff;
+    border-radius: 15px;
+}
+
+#container5 img
+{
+    border-radius: 15px;
+    width: 18rem;
+    height: 20rem;
+    border: 2px solid black;
+}
+
+#container6 div
+{
+    margin: 1rem;
+    padding: 1rem;
+    background-color:#ffe6ff;
+    border-radius: 15px;
+}
+
+#container6 img
+{
+    border-radius: 15px;
+    width: 20rem;
+    height: 18rem;
+    border: 2px solid black;
+}
+
+#container7
+{
+    margin: 1rem;
+    padding: 1rem;
+    margin-bottom: 8rem;
+    background-color:#ffe6ff;
+    border-radius: 15px;
+}
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

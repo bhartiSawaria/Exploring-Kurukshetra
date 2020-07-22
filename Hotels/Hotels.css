@@ -1,0 +1,235 @@
+body
+{
+    background-color: 	 #f2f2f2;
+}
+
+#container
+{
+    margin : 40px;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    background-color: 	 #f2f2f2;
+}
+
+#container h1
+{
+    font-family: Calibri;
+    font-size: 120px;
+    padding: 20px;
+    background: linear-gradient(to Top,   #4da6ff,  	 #ff66b3 );
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.hotel
+{
+    margin: 20px;
+    padding: 50px;
+    background: linear-gradient(to Top Right,   	 #4da6ff,  	 #ff66b3 );
+    display: flex;
+}   
+
+#container img
+{
+    height: 500px;
+    width: 640px;
+    margin: 20px 30px 20px 20px;
+    box-shadow: 6px 6px 25px 	 black;
+    border: 2px solid black;
+}
+
+.images
+{
+    margin-right: 30px;
+}
+
+.name
+{
+    font-size: 85px;
+    font-family: Monotype Corsiva;
+    margin: 10px;
+}
+
+#container h3
+{
+    font-style: oblique;
+}
+
+#container li
+{
+    list-style-type: circle;
+}
+
+.numbers
+{
+    position: relative;
+    top: 90px;
+    left: 50px;
+    color: #f2f2f2;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+    
+.myslides
+{
+    display: none;
+}
+    
+.prev , .next
+{
+    position: relative;
+    top: -250px;     
+    font-size: 22px;
+    font-weight: bold;
+    padding: 16px;
+    margin-left: 22px;
+    border-radius: 0 3px 3px 0;
+    color:  red;
+    cursor: pointer;
+}
+
+.next
+{
+    left: 520px;
+    border-radius: 3px 0 0 3px;
+}
+    
+.prev:hover,.next:hover
+{    
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+    
+.dots
+{
+    width: 13px;
+    height: 13px;
+    background: gray;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+    
+.fade
+{  
+    animation-name:fade;
+    animation-duration:1.5s;
+}
+    
+@keyframes fade
+{
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+    
+.active, .dots:hover 
+{
+    background-color: #bfbfbf;
+}
+
+
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/

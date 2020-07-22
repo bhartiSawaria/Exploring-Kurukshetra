@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="fav icon" type="image/jpg" href="..\Home Page Attatchments\Logo.jpg">
+    <link rel="stylesheet" href="FormCSS.css">
+</head>
+<body>
+
+    <!--Navigation Bar--> 
+    <div class="navBarContainer">
+        <img class="Logo" src="..\Home Page Attatchments\Logo.jpg">
+        <h1 class="WebTitle">Exploring Kurukshetra</h1>
+        <button id="toggleButton1" onclick="showMenu1()"> <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <button id="toggleButton2" onclick="showMenu2()"> <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div id="sideBar">
+        <h2><a class="link" href="..\Home Page.html">Home</a></h2>
+        <h2><a class="link" href="..\Tourist spot\Tourist Spot Main.html">Tourist Spot</a></h2>
+        <h2><a class="link" href="..\Religious Places\Religious Places.html">Religious Places</a></h2>
+        <h2><a class="link" href="..\Shopping Complex\Shopping Complex.html">Shopping Complex</a></h2>
+        <h2><a class="link" href="..\Snack Points\Snack Points Main.html">Snack Points</a></h2>
+        <h2><a class="link" href="..\Restaurants\Restaurant.html">Restaurants</a></h2>
+        <h2><a class="link" href="..\Hotels\Hotels.html">Hotels</a></h2>
+        <h2><a class="link" href="..\Education\Education.html">Education</a></h2>
+        <h2><a class="link" href="..\Health Care\Health Care Main.html">Health Care</a></h2>
+        <h2><a class="link" href="..\Quiz\Instructions.html">Quiz</a></h2>
+    </div>
+        <!--Navigation Bar Ending-->
+
+
+    <div id="container">
+
+        <fieldset>
+            <legend> 
+                Form
+            </legend>
+            <form action="Quiz.html" onsubmit="">
+                <label>Name : </label>  
+                <span id="nameSpan"></span>
+                <br>
+                <input id="name" type="text" name="Name" required="required" onkeyup="onlyLettersInName(this)" onblur="checkName()" onfocus="normalName()">
+                <br>
+
+                <label>Date of Birth : </label> <br>
+                <input type="date" name="dob" required="required">
+                <br>
+
+                <label>Mobile No : </label> 
+                <span id="MobileNoSpan"></span>
+                <br>
+                <input id="MobileNo" type="tel" name="MobileNo" required="required" onkeyup="onlyNumbers(this)" onblur="checkNo()" onfocus="normalNo()">
+                <br>
+
+                <label>Email Address : </label> 
+                <span id="emailSpan"> </span>
+                <br>
+                <input id="email" type="email" name="Email" required="required" onkeyup="onlyEMail(this)" onblur="checkMail()" onfocus="normalMail()">
+                <br>
+
+                <input id="submit" type="submit" name="submit">
+            </form>
+        </fieldset>
+
+    </div>
+    <script src="FormJS.js"></script>
+    
+</body>
+</html>

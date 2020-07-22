@@ -1,0 +1,211 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+    background: #708090;
+}
+
+.SnackPoint
+{
+    font-size: 8rem;
+    color: #ffffff;
+    font-family: 'Great Vibes', Gabriola, cursive;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.ruling
+{
+    height: 0.5rem;
+    width: 38rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2.3rem;
+}
+
+.container
+{
+    width: 75rem;
+    /* min-height: 70rem; */
+    background: #ffffff;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    box-sizing: border-box;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+}
+
+.forFlex
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.container .box
+{
+    height:17rem;
+    width: 17rem;
+    position: relative;
+    background: #35424a;
+    /* margin: 10px 10px 20px 19px; */
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #35424a;
+}
+
+.container .box .imgBox
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.container .box .imgBox img
+{
+    width: 17rem;
+    height:17rem;
+    transition: transform 2s;
+}
+
+.container .box:hover .imgBox img
+{
+    transform: scale(1.2);
+}
+
+.container .box .details
+{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    background: rgba(0,0,0,.8);
+    color: #ffffff;
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.container .box .details p
+{
+    font-size: 3rem;
+    font-family: Calibri;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container .box:hover .details
+{
+    transform: scaleY(1);
+}
+
+/****************NAVIGATION BAR*******************/
+
+.navBarContainer
+{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.Logo
+{
+    height:6rem;
+    width: 6rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+
+.WebTitle
+{
+    color:white;
+    font-size: 3rem;
+    font-family: Calibri;
+    margin-top: 3.2rem;
+    margin-left: 3rem;
+}
+
+#toggleButton1 
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton2
+{
+    
+   /* display: flex;**/
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    margin-left: 72rem;
+    margin-top: 3.2rem;
+    background: black;
+    border: 0px ;
+    outline: none;
+}
+
+#toggleButton1 span  
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+    
+}
+
+#toggleButton2 span
+{
+    height: 0.3rem;
+    width: 2.9rem;
+    background-color: white;
+    margin-top: 0.6rem;
+}
+
+#sideBar
+{
+    height: 38rem;
+    width: 18rem;
+    margin-left: 54rem;
+    display: none;
+    background: black;
+    color: white;
+    font-family: Calibri;
+    padding: 3rem;
+    opacity: .8;
+    transition: 5s;
+    position: absolute;
+    z-index: 3;
+}
+
+#sideBar h2
+{
+    font-size: 1.7rem;
+   
+}
+
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*******************NAVIGATION BAR ENDING***************************/
